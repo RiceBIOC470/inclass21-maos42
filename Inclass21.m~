@@ -37,7 +37,6 @@ end
 tt=linspace(interval(1),interval(2),nstep);
 
 plot(tt,sol1,'b.-'); hold on; plot(tt,sol2, 'r.-');
-title('solution 1 blue,  solution 2 red');
 
 %Miguel Angel: Even though both equations start at 0,  their behavior
 %differs greatly one from another. We can clearly observe that the first
@@ -70,9 +69,6 @@ for ii=2:nstep
 end
 
 plot(tt,sol1,'b.-'); hold on; plot(tt,sol2, 'r.-');
-title('solution 1 blue,  solution 2 red');
 
 %Miguel Angel: Here we can observe that the starting point has a profound
-%effect on the differential as we are getting immense values for sol2 due
-%the nature of the equation, whereas if we only plot sol1 we can observe
-%it's an increasing function.
+%effect on the differential as we are getting immense values for sol2 
